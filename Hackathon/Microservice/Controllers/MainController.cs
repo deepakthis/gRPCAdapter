@@ -12,23 +12,22 @@ namespace Microservice.Controllers
     public class MainController : ControllerBase
     {
         private readonly ILogger<MainController> _logger;
+        public MainController()
+        {
 
+        }
         public MainController(ILogger<MainController> logger)
         {
             _logger = logger;
         }
 
         [HttpPost]
-        public async Task<ActionResult> Post()
+        public async Task<ActionResult> PostAsync()
         {
-            // Receive gRPC Request -> HttpRequest
-            //this.HttpContext.Request;
-
             M2ResponseModel responseModel = new M2ResponseModel();
             responseModel.success = true;
             responseModel.message = "done!!";
             
-            // change to gRPC response and return
             return Ok(responseModel);
         }
     }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\I\\Hackathon\\Hackathon\\Microservice\\Microservice.csproj": {}
+    "C:\\Users\\gamalho\\Projects4\\gRPCAdapter\\Hackathon\\Microservice\\Microservice.csproj": {}
   },
   "projects": {
-    "C:\\I\\Hackathon\\Hackathon\\Microservice\\Microservice.csproj": {
+    "C:\\Users\\gamalho\\Projects4\\gRPCAdapter\\Hackathon\\Microservice\\Microservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\I\\Hackathon\\Hackathon\\Microservice\\Microservice.csproj",
+        "projectUniqueName": "C:\\Users\\gamalho\\Projects4\\gRPCAdapter\\Hackathon\\Microservice\\Microservice.csproj",
         "projectName": "Microservice",
-        "projectPath": "C:\\I\\Hackathon\\Hackathon\\Microservice\\Microservice.csproj",
-        "packagesPath": "C:\\Users\\nasabhar\\.nuget\\packages\\",
-        "outputPath": "C:\\I\\Hackathon\\Hackathon\\Microservice\\obj\\",
+        "projectPath": "C:\\Users\\gamalho\\Projects4\\gRPCAdapter\\Hackathon\\Microservice\\Microservice.csproj",
+        "packagesPath": "C:\\Users\\gamalho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gamalho\\Projects4\\gRPCAdapter\\Hackathon\\Microservice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\nasabhar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gamalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,9 +26,21 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
+          "https://cloudbuild.pkgs.visualstudio.com/DefaultCollection/_apis/packaging/CloudBuild/nuget/index.json": {},
+          "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {},
+          "https://msazure.pkgs.visualstudio.com/DefaultCollection/_apis/packaging/CoreXTMirror/nuget/index.json": {},
+          "https://msazure.pkgs.visualstudio.com/DefaultCollection/_apis/packaging/Dev/nuget/index.json": {},
+          "https://msazure.pkgs.visualstudio.com/DefaultCollection/_apis/packaging/MSNugetMirror/nuget/index.json": {},
+          "https://msazure.pkgs.visualstudio.com/DefaultCollection/_apis/packaging/ManualMirror/nuget/index.json": {},
+          "https://msazure.pkgs.visualstudio.com/DefaultCollection/_apis/packaging/NugetMirror/nuget/index.json": {},
+          "https://msazure.pkgs.visualstudio.com/DefaultCollection/_apis/packaging/Official/nuget/index.json": {},
           "https://msazure.pkgs.visualstudio.com/_packaging/ACE/nuget/v3/index.json": {},
-          "https://skype.pkgs.visualstudio.com/DefaultCollection/_packaging/csc/nuget/v3/index.json": {},
-          "https://skype.pkgs.visualstudio.com/DefaultCollection/_packaging/tps/nuget/v3/index.json": {}
+          "https://msazure.pkgs.visualstudio.com/_packaging/OSS/nuget/v3/index.json": {},
+          "https://msblox.pkgs.visualstudio.com/_packaging/AzureGenevaMonitoring/nuget/v3/index.json": {},
+          "https://mysource.pkgs.visualstudio.com/_packaging/Common/nuget/v3/index.json": {},
+          "https://skype.pkgs.visualstudio.com/_packaging/csc/nuget/v3/index.json": {},
+          "https://skype.pkgs.visualstudio.com/_packaging/tps/nuget/v3/index.json": {},
+          "https://www.nuget.org/packages/Microsoft.TeamFoundationServer.ExtendedClient/15.112.1": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
@@ -43,6 +55,16 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.30.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,8 +77,20 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Host.win-x64",
               "version": "[3.0.3, 3.0.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
             }
           ],
           "frameworkReferences": {

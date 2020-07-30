@@ -666,23 +666,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nasabhar\\.nuget\\packages\\": {},
+    "C:\\Users\\gamalho\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\I\\Hackathon\\Hackathon\\WebApplication\\WebApplication.csproj",
+      "projectUniqueName": "C:\\Users\\gamalho\\Projects4\\gRPCAdapter\\Hackathon\\WebApplication\\WebApplication.csproj",
       "projectName": "WebApplication",
-      "projectPath": "C:\\I\\Hackathon\\Hackathon\\WebApplication\\WebApplication.csproj",
-      "packagesPath": "C:\\Users\\nasabhar\\.nuget\\packages\\",
-      "outputPath": "C:\\I\\Hackathon\\Hackathon\\WebApplication\\obj\\",
+      "projectPath": "C:\\Users\\gamalho\\Projects4\\gRPCAdapter\\Hackathon\\WebApplication\\WebApplication.csproj",
+      "packagesPath": "C:\\Users\\gamalho\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gamalho\\Projects4\\gRPCAdapter\\Hackathon\\WebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\nasabhar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gamalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -691,9 +691,21 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
+        "https://cloudbuild.pkgs.visualstudio.com/DefaultCollection/_apis/packaging/CloudBuild/nuget/index.json": {},
+        "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {},
+        "https://msazure.pkgs.visualstudio.com/DefaultCollection/_apis/packaging/CoreXTMirror/nuget/index.json": {},
+        "https://msazure.pkgs.visualstudio.com/DefaultCollection/_apis/packaging/Dev/nuget/index.json": {},
+        "https://msazure.pkgs.visualstudio.com/DefaultCollection/_apis/packaging/MSNugetMirror/nuget/index.json": {},
+        "https://msazure.pkgs.visualstudio.com/DefaultCollection/_apis/packaging/ManualMirror/nuget/index.json": {},
+        "https://msazure.pkgs.visualstudio.com/DefaultCollection/_apis/packaging/NugetMirror/nuget/index.json": {},
+        "https://msazure.pkgs.visualstudio.com/DefaultCollection/_apis/packaging/Official/nuget/index.json": {},
         "https://msazure.pkgs.visualstudio.com/_packaging/ACE/nuget/v3/index.json": {},
-        "https://skype.pkgs.visualstudio.com/DefaultCollection/_packaging/csc/nuget/v3/index.json": {},
-        "https://skype.pkgs.visualstudio.com/DefaultCollection/_packaging/tps/nuget/v3/index.json": {}
+        "https://msazure.pkgs.visualstudio.com/_packaging/OSS/nuget/v3/index.json": {},
+        "https://msblox.pkgs.visualstudio.com/_packaging/AzureGenevaMonitoring/nuget/v3/index.json": {},
+        "https://mysource.pkgs.visualstudio.com/_packaging/Common/nuget/v3/index.json": {},
+        "https://skype.pkgs.visualstudio.com/_packaging/csc/nuget/v3/index.json": {},
+        "https://skype.pkgs.visualstudio.com/_packaging/tps/nuget/v3/index.json": {},
+        "https://www.nuget.org/packages/Microsoft.TeamFoundationServer.ExtendedClient/15.112.1": {}
       },
       "frameworks": {
         "netcoreapp3.0": {
@@ -730,8 +742,20 @@
         "warn": true,
         "downloadDependencies": [
           {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
             "name": "Microsoft.NETCore.App.Host.win-x64",
             "version": "[3.0.3, 3.0.3]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
           }
         ],
         "frameworkReferences": {

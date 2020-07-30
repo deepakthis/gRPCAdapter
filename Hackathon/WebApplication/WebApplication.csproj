@@ -5,11 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Protos\MeterReader.proto" />
+    <None Remove="Protos\GRPCRequestResponse.proto" />
   </ItemGroup>
 
   <ItemGroup>
-    <Protobuf Include="Protos\MeterReader.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\GRPCRequestResponse.proto" GrpcServices="Client" />
   </ItemGroup>
 
   <ItemGroup>

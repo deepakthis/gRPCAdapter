@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.1/MeterReader.cs \
+obj\Debug\netcoreapp3.1/MeterReaderGrpc.cs: Protos/MeterReader.proto

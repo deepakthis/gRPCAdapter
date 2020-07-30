@@ -23,7 +23,7 @@ namespace WebApplication.Controllers
             // Request of gRPC
 
             var data = new StringContent(json, Encoding.UTF8, "application/json");// remove
-            var jsonResponse = getClient().PostAsync(url, data).Result;// remove
+            var jsonResponse = getClient().PostAsync(url, data).Result; // remove
 
             // gRPC response -> M2ResponseModel.proto -> M2ResponseModel
             M2ResponseModel m2ResponseModel = JsonConvert.DeserializeObject<M2ResponseModel>(await jsonResponse.Content.ReadAsStringAsync());

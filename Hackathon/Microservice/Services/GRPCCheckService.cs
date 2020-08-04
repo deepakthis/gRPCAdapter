@@ -1,4 +1,5 @@
 ﻿using Grpc.Core;
+using GRPCLibrary;
 using Microservice.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -21,14 +22,8 @@ namespace Microservice.Services
 
         public override async Task<GRPCResponse> GRPCCheck(GRPCRequest request, ServerCallContext context)
         {
-            var controller = new MainController();
-            IActionResult response = await controller.PostAsync();
-
-            var m2Response = response as OkObjectResult;
-            var grpcResponse = JsonConvert.DeserializeObject<GRPCResponse>(JsonConvert.SerializeObject(m2Response.Value));
-            
-            return grpcResponse;
-        
+            var adapter = new GRPCAdapter<GRPCResponse>();
+            return await adapter.ServerAsync();
         }
     }
 }

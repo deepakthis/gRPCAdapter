@@ -22,10 +22,8 @@ namespace WebApplication.Controllers
             {
                 name = "M2_Request"
             };
-            var requestJson = JsonConvert.SerializeObject(requestModel);
-            
             var adapter = new GRPCAdapter();
-            var message = await adapter.OutGoingRequestAsync(url, requestJson);
+            var message = await adapter.OutGoingRequestAsync(url, requestModel);
             
             return Ok(message);
         }

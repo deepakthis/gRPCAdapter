@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\gamalho\\Projects4\\gRPCAdapter\\Hackathon\\GRPCLibrary\\GRPCLibrary.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\gamalho\\Projects4\\gRPCAdapter\\Hackathon\\GRPCLibrary\\GRPCLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gamalho\\Projects4\\gRPCAdapter\\Hackathon\\GRPCLibrary\\GRPCLibrary.csproj",
+        "projectName": "GRPCLibrary",
+        "projectPath": "C:\\Users\\gamalho\\Projects4\\gRPCAdapter\\Hackathon\\GRPCLibrary\\GRPCLibrary.csproj",
+        "packagesPath": "C:\\Users\\gamalho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gamalho\\Projects4\\gRPCAdapter\\Hackathon\\GRPCLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gamalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://cloudbuild.pkgs.visualstudio.com/DefaultCollection/_apis/packaging/CloudBuild/nuget/index.json": {},
+          "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {},
+          "https://msazure.pkgs.visualstudio.com/DefaultCollection/_apis/packaging/CoreXTMirror/nuget/index.json": {},
+          "https://msazure.pkgs.visualstudio.com/DefaultCollection/_apis/packaging/Dev/nuget/index.json": {},
+          "https://msazure.pkgs.visualstudio.com/DefaultCollection/_apis/packaging/MSNugetMirror/nuget/index.json": {},
+          "https://msazure.pkgs.visualstudio.com/DefaultCollection/_apis/packaging/ManualMirror/nuget/index.json": {},
+          "https://msazure.pkgs.visualstudio.com/DefaultCollection/_apis/packaging/NugetMirror/nuget/index.json": {},
+          "https://msazure.pkgs.visualstudio.com/DefaultCollection/_apis/packaging/Official/nuget/index.json": {},
+          "https://msazure.pkgs.visualstudio.com/_packaging/ACE/nuget/v3/index.json": {},
+          "https://msazure.pkgs.visualstudio.com/_packaging/OSS/nuget/v3/index.json": {},
+          "https://msblox.pkgs.visualstudio.com/_packaging/AzureGenevaMonitoring/nuget/v3/index.json": {},
+          "https://mysource.pkgs.visualstudio.com/_packaging/Common/nuget/v3/index.json": {},
+          "https://skype.pkgs.visualstudio.com/_packaging/csc/nuget/v3/index.json": {},
+          "https://skype.pkgs.visualstudio.com/_packaging/tps/nuget/v3/index.json": {},
+          "https://www.nuget.org/packages/Microsoft.TeamFoundationServer.ExtendedClient/15.112.1": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

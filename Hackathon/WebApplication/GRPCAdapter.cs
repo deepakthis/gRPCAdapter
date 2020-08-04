@@ -12,12 +12,13 @@ namespace WebApplication
     public class GRPCAdapter
     {
         // client 
-        public async Task<string> OutGoingRequestAsync(string url, string requestJson)
+        public async Task<string> OutGoingRequestAsync(string url, Object requestModel)
         {
             var channel = GrpcChannel.ForAddress(url);
             var client = new GRPCRequestResponse.GRPCRequestResponseClient(channel);
 
-            var grpcRequest = JsonConvert.DeserializeObject<GRPCRequest>(requestJson);
+            var grpcRequest = JsonConvert.DeserializeObject<GRPCRequest>(JsonConvert.SerializeObject(requestModel));
+            
             var reply = await client.GRPCCheckAsync(grpcRequest);
 
             channel.ShutdownAsync().Wait();
